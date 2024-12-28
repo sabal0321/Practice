@@ -54,7 +54,7 @@ header{
 }
 button:hover{
     background-color:#bea060 ;
-    transition: 0.2s;
+    transition: 2s;
 }
 button.hirenow{
     width: 46vw;
