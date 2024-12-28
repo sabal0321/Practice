@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+/* color code #bea060 */
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    display: flex;
+    width: 100%;
+}
+.head-left,.head-right{
+    flex: 1;
+}
+.head-left{
+    padding-left: 90px;
+}
+.head-left h1{
+    color:#bea060 ;
+    font-weight: 400 !important;
+    font-size: 78px;
+    line-height: 1.2em;
+    margin-top: 30px;
+    margin-bottom:25px;
+
+}
+.head-left h2{
+    color: #bea060;
+    letter-spacing: 2px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 60px;
+}
+.head-left p{
+    color: #c1bfbf;
+    letter-spacing: 2px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 10%;
+}
+.buttons button{
+    background-color: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border: solid 2px #bea060;
+    padding: 20px 10px;
+    margin-right:15px;
+    width: 47%;;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#bea060 ;
+    transition: 0.2s;
+}
+button.hirenow{
+    width: 46vw;
+    margin-bottom: 30px;
+}
+.head-left h3{
+    color: #c1bfbf;
+}
+.head-right img{
+    width: 40vw;
+    height: 730px;
+    margin-top: 0%;
+}
